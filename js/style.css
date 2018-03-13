@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.timer-wrap{
+    background: aliceblue;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.buttons{
+    display: flex;
+    width: 530px;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 70px;
+    height: 30px;
+    background: coral;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: darkorange;
+}
+
+.timer{
+    font-size: 180px;
+    display: flex;
+    justify-content: center;
+}
